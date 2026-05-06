@@ -1,0 +1,25 @@
+The following is an example set of User Stories for a typical user registration:
+
+Scenario: Unregistered User should see a link to user signup
+GIVEN as an unregistered user
+WHEN I go to the main site
+THEN I should see a link to signup as a user
+
+Scenario: Unregistered User should see a registration form
+GIVEN as an unregistered user
+WHEN I go click on 'signup'
+THEN I should see a form allowing me to sign up to the site
+
+Scenario: Unregistered User should receive confirmation email on signup
+GIVEN as an unregistered user
+WHEN I fill out the signup form
+AND click submit
+THEN I should receive a confirmation email with a link that activates the account
+
+Scenario: Unregistered User should be able to activate user account
+GIVEN as an unregistered user
+AND I have received a confirmation email
+WHEN I click on the activation link
+THEN I should have an activated account
+AND I am automatically logged in
+AND I am taken to the landing page for new users
