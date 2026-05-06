@@ -1,0 +1,2 @@
+Dashboard		
+Dashboard [User]	As a user, I want to access my dashboard so that I can monitor home activities, control devices, and access system features easily.	- User dashboard accessible only after successful login. - Dashboard displays connected devices and their status. - Notifications and alerts are visible. - Quick access to Monitoring, Automation, Guest Management, Activity Log, and Settings is available. - Real-time updates for device and home status are displayed. - Unauthorized users cannot access the dashboard.
