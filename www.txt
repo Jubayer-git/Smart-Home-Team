@@ -1,0 +1,1 @@
+As a user, I want to control smart home devices remotely so that I can manage my home appliances easily from the system.
